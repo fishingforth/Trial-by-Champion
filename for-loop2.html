@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+
+
+
+    typeOutText(3300, "Son Vo has this covered","");
+
+
+    function typeOutText(startTime,textToType,divToTypeIn) {
+
+
+        for (
+                var i = 0;  // initialize i to startTime
+                i < textToType.length; // define the value that cannot be reached
+                i = i + 1 // describe how we go from one step to the next
+        ) {
+
+            var letter = textToType.substring(i, i + 1);
+            var number = 200 * i + startTime;
+
+            console.log(letter + ", " + number);
+        }
+    }
+</script>
+
+</body>
+</html>

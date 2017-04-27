@@ -1,0 +1,481 @@
+body { /* TO DISABLE THE SCROLLBAR */
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#title {
+    text-align: center;
+    font-size: 30px;
+    height: 50px;
+    line-height: 50px;
+    background-color: aliceblue;
+    position: absolute;
+    width: 100%;
+    top: 5px;
+}
+
+#Button {
+    border: 2px solid #000000;
+    font-family: "Copperplate Gothic Bold", serif;
+    text-align: center;
+    font-size: 40px;
+    top: -50px;
+    left: -4px;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 50px;
+    height: 48px;
+    background-color: aliceblue;
+    position: relative;
+}
+
+#Button_Box {
+    border: 2px solid #000000;
+    height: 50px;
+    width: 50px;
+    margin-left: 48%;
+    margin-top: 10%;
+    background-color: transparent;
+    text-align: center;
+    positon: relative;
+    z-index: -1;
+}
+
+#Start {
+    position: relative;
+    left: -27px;
+    top: -40px;
+}
+
+#Button_Box:hover {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 2px 2px 4px #000000;
+    z-index: -1;
+}
+
+/*#separator {
+    height: 2px;
+    width: 100%;
+    background-color: black;
+}
+*/
+
+#separator {
+    background: #000000;
+    width: 2px;
+    height: 100px;
+    transition: width 2s;
+    clear: both;
+}
+
+#top_animation_cover_pt1 {
+    background-color: #000000;
+    height: 50px;
+    width: 0px;
+    position: absolute;
+    margin-left: -8px;
+    top: 0px;
+}
+
+#top_animation_cover_pt2 { /*This top_animation_cover_ has a much bigger height than the rest for no reason now*/
+    background-color: #000000;
+    height: 200px;
+    width: 0px;
+    position: absolute;
+    margin-left: -8px;
+    top: 5%;
+}
+
+#top_animation_cover_pt3 {
+    background-color: #000000;
+    height: 50px;
+    width: 0px;
+    position: absolute;
+    margin-left: -8px;
+    top: 30%;
+}
+
+#top_animation_cover_pt4 {
+    background-color: #000000;
+    height: 50px;
+    width: 0px;
+    position: absolute;
+    margin-left: -8px;
+    top: 35%;
+}
+
+#top_animation_cover_pt5 {
+    background-color: #000000;
+    height: 50px;
+    width: 0px;
+    position: absolute;
+    margin-left: -8px;
+    top: 40%;
+}
+
+#top_animation_cover_pt6 {
+    background-color: #000000;
+    height: 50px;
+    width: 0px;
+    position: absolute;
+    margin-left: -8px;
+    top: 45%;
+}
+
+#top_animation_cover_pt7 {
+    background-color: #000000;
+    height: 50px;
+    width: 0px;
+    position: absolute;
+    margin-left: -8px;
+    top: 50%;
+}
+
+#top_animation_cover_pt8 {
+    background-color: #000000;
+    height: 50px;
+    width: 0px;
+    position: absolute;
+    margin-left: -8px;
+    top: 55%;
+}
+
+#top_animation_cover_pt9 {
+    background-color: #000000;
+    height: 50px;
+    width: 0px;
+    position: absolute;
+    margin-left: -8px;
+    top: 60%;
+}
+
+#top_animation_cover_pt10 {
+    background-color: #000000;
+    height: 50px;
+    width: 0px;
+    position: absolute;
+    margin-left: -8px;
+    top: 65%;
+}
+
+#top_animation_cover_pt11 {
+    background-color: #000000;
+    height: 50px;
+    width: 0px;
+    position: absolute;
+    margin-left: -8px;
+    top: 70%;
+}
+
+#top_animation_cover_pt12 {
+    background-color: #000000;
+    height: 50px;
+    width: 0px;
+    position: absolute;
+    margin-left: -8px;
+    top: 75%;
+}
+
+#top_animation_cover_pt13 {
+    background-color: #000000;
+    height: 50px;
+    width: 0px;
+    position: absolute;
+    margin-left: -8px;
+    top: 80%;
+}
+
+#top_animation_cover_pt14 {
+    background-color: #000000;
+    height: 50px;
+    width: 0px;
+    position: absolute;
+    margin-left: -8px;
+    top: 85%;
+}
+
+#top_animation_cover_pt15 {
+    background-color: #000000;
+    height: 50px;
+    width: 0px;
+    position: absolute;
+    margin-left: -8px;
+    top: 90%;
+}
+
+#top_animation_cover_pt16 {
+    background-color: #000000;
+    height: 50px;
+    width: 0px;
+    position: absolute;
+    margin-left: -8px;
+    top: 94%;
+}
+
+/* */
+
+#div_Chapter_Container {
+    width: auto;
+    height: auto;
+    background-color: #000000;
+    color: white;
+    z-index: 1;
+    top: 10px;
+    left: 10px;
+    margin-left: 92%;
+    float: right;
+    position: fixed;
+    text-align: right;
+}
+
+#div_Chapter_TEXT {
+    text-align: right;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+
+/* */
+/*
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+} */
+
+/* */
+
+
+
+
+.center_me {
+    text-align: center;
+}
+
+
+
+
+/*EVERYTHING AFTER ANIMATION*/
+
+#line_divider {
+    z-index: -1;
+    height: 1px;
+    width: 100%;
+    background-color: black;
+}
+
+#div_Map {
+    background-color: black;
+    height: 250px;
+    width: 250px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 80%;
+
+    z-index: 50;
+}
+
+#div_Chat_Log {
+    background-color: black;
+    height: 600px;
+    width: 650px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 30%;
+
+    z-index: 50;
+}
+
+#div_Chat_Log_Text {
+    color: white;
+    font-size: 20px;
+
+    margin: 1%;
+
+    z-index: 51;
+}
+
+#div_Chat_Entry {
+    background-color: black;
+    height: 100px;
+    width: 500px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 35%;
+
+    z-index: 50;
+}
+
+#div_Inventory {
+    background-color: black;
+    height: 500px;
+    width: 350px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 3%;
+
+    z-index: 50;
+}
+
+#div_Inventory_Value {
+    background-color: black;
+    height: 500px;
+    width: 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+
+    position: relative;
+    margin-top: 3%;
+    margin-left: 25%;
+
+    z-index: 51; /* Not sure if there is a point in making the z-index +1 higher, but I did anyways */
+}
+
+/*#div_Chat_Log*/
+/*height: 600px;*/
+/*width: 650px;*/
+
+.Character_Select_Screen {
+    height: 500px;
+    width: 600px;
+    display: block;
+
+    z-index: 54;
+    background-color: grey;
+}
+
+#Scout_Select {
+    height: 500px;
+    width: 200px;
+    display: inline-block;
+
+    z-index: 55;
+    background-color: white;
+}
+
+#Alexandre_Select {
+    height: 500px;
+    width: 200px;
+    display: inline-block;
+
+    z-index: 55;
+    background-color: white
+}
+
+
+#Evee_Select {
+    height: 500px;
+    width: 200px;
+    display: inline-block;
+
+    z-index: 55;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/*html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+/*
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+*/
