@@ -221,33 +221,33 @@ setTimeout(function () {
 //     }
 // }
 //
-//var typeWords = function() {
 
-/* BRANCHING PROJECT IDEA *//* BRANCHING PROJECT IDEA *//* BRANCHING PROJECT IDEA */
-/* BRANCHING PROJECT IDEA *//* BRANCHING PROJECT IDEA *//* BRANCHING PROJECT IDEA */
-setTimeout(function coverFunctAnim() {
-    /* not this */
+var typeWords = function() {
+
+    /* BRANCHING PROJECT IDEA *//* BRANCHING PROJECT IDEA *//* BRANCHING PROJECT IDEA */
+    /* BRANCHING PROJECT IDEA *//* BRANCHING PROJECT IDEA *//* BRANCHING PROJECT IDEA */
     setTimeout(function coverFunctAnim() {
-        $("#div_Chat_Log_Text").append("loading inventory_Div_Title");
-    },3100);
+        /* not this */
+        setTimeout(function coverFunctAnim() {
+            $("#div_Chat_Log_Text").append("loading inventory_Div_Title");
+        },3100);
 
-    setTimeout(function coverFunctAnim() {
-        $("#div_Chat_Log_Text").append("<br>");
-    },3101);
+        setTimeout(function coverFunctAnim() {
+            $("#div_Chat_Log_Text").append("<br>");
+        },3101);
 
-    setTimeout(function coverFunctAnim() {
-        $("#div_Chat_Log_Text").append("loading inventory_Map_Title");
-    },3600);
+        setTimeout(function coverFunctAnim() {
+            $("#div_Chat_Log_Text").append("loading inventory_Map_Title");
+        },3600);
 
-    setTimeout(function coverFunctAnim() {
-        $("#div_Chat_Log_Text").empty('body');
-    },5000);
-    /* not this */
-},0); /* Full Value */
-/* BRANCHING PROJECT IDEA *//* BRANCHING PROJECT IDEA *//* BRANCHING PROJECT IDEA */
-/* BRANCHING PROJECT IDEA *//* BRANCHING PROJECT IDEA *//* BRANCHING PROJECT IDEA */
+        setTimeout(function coverFunctAnim() {
+            $("#div_Chat_Log_Text").empty('body');
+        },5000);
+        /* not this */
+    },0); /* Full Value */
+    /* BRANCHING PROJECT IDEA *//* BRANCHING PROJECT IDEA *//* BRANCHING PROJECT IDEA */
+    /* BRANCHING PROJECT IDEA *//* BRANCHING PROJECT IDEA *//* BRANCHING PROJECT IDEA */
 
-//var typeWords = function() {
 setTimeout(function(){ /* Delay of the Chat_Log Variable */
     /* Chat_Log */
     setTimeout(function coverFunctAnim() {
@@ -325,20 +325,17 @@ setTimeout(function(){ /* Delay of the Chat_Log Variable */
     }, 6500);
 
     setTimeout(function coverFunctAnim() {
-        $("#div_Chat_Log_Text").append("" +
-            "<div class='Character_Select_Screen'>");
+        $("#div_Chat_Log_Text").append("<div class='Character_Select_Screen'>" +
+            "" +
+            "</div>");
     }, 7000);
 
     setTimeout(function coverFunctAnim() {
-        $("#Character_Select_Screen").append("<div>" +
-            "<div id='Scout_Select'></div>" +
-            "<div id='Alexandre_Select'></div>" +
-            "<div id='Evee_Select'></div>" +
-            "</div>");
+        $("#Character_Select_Screen").append("<div id='Scout_Select'></div><div id='Alexandre_Select'></div><div id='Evee_Select'></div>");
     }, 7100);
 
 }, 3000); /* Delay of the Chat_Log Variable */
-//};
+};
 
 /*$('.div').append;
 setTimeout(function() {
@@ -366,4 +363,5 @@ $( "#Button" ).click(function() {
         },
         3300
     );*/
+    typeWords();
 });

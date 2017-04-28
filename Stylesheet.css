@@ -370,8 +370,10 @@ body { /* TO DISABLE THE SCROLLBAR */
 
 .Character_Select_Screen {
     height: 500px;
-    width: 600px;
-    display: block;
+    width: 100%;
+
+    position: relative;
+    margin-top: 5%;
 
     z-index: 54;
     background-color: grey;
@@ -381,6 +383,7 @@ body { /* TO DISABLE THE SCROLLBAR */
     height: 500px;
     width: 200px;
     display: inline-block;
+    position: relative;
 
     z-index: 55;
     background-color: white;
@@ -390,6 +393,7 @@ body { /* TO DISABLE THE SCROLLBAR */
     height: 500px;
     width: 200px;
     display: inline-block;
+    position: relative;
 
     z-index: 55;
     background-color: white
@@ -400,6 +404,8 @@ body { /* TO DISABLE THE SCROLLBAR */
     height: 500px;
     width: 200px;
     display: inline-block;
+    position: relative;
+
 
     z-index: 55;
     background-color: white;
