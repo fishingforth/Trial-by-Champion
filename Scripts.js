@@ -32,7 +32,7 @@ if (animGo = 1) {
 }*/
 
 // Using multiple unit types within one animation.
-
+setTimeout(function(){
 $( "#Button" ).click(function() {
     $( "#top_animation_cover_pt1" ).animate({
         width: "100%",
@@ -146,7 +146,7 @@ $ ( "#Button").click(function() {
         fontSize: "3em",
     }, 1500 );
 })
-
+}, 0);
 
 
 // #top_animation_cover end //
@@ -331,11 +331,24 @@ setTimeout(function(){ /* Delay of the Chat_Log Variable */
     }, 7000);
 
     setTimeout(function coverFunctAnim() {
-        $("#Character_Select_Screen").append("<div id='Scout_Select'></div><div id='Alexandre_Select'></div><div id='Evee_Select'></div>");
+        $(".Character_Select_Screen").append("" +
+            "<div class='Character_Select_Options' id='Scout_Select' onclick='Scout()'></div>" +
+            "<div class='Character_Select_Options' id='Alexandre_Select'></div>" +
+            "<div class='Character_Select_Options' id='Evee_Select' ></div>");
     }, 7100);
+
+
 
 }, 3000); /* Delay of the Chat_Log Variable */
 };
+
+$(document).delegate('#Scout_Select', 'click', function()
+{
+    $("#div_Chat_Log_Text").empty();
+    $("#div_Chat_Log_Text").append("");
+    $("#div_Chat_Log_Text").append("");
+});
+
 
 /*$('.div').append;
 setTimeout(function() {

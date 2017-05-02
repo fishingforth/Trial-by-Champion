@@ -27,6 +27,7 @@ body { /* TO DISABLE THE SCROLLBAR */
     height: 48px;
     background-color: aliceblue;
     position: relative;
+    cursor: pointer;
 }
 
 #Button_Box {
@@ -371,45 +372,46 @@ body { /* TO DISABLE THE SCROLLBAR */
 .Character_Select_Screen {
     height: 500px;
     width: 100%;
+    display: inline-block;
+    text-align:center;
 
     position: relative;
-    margin-top: 5%;
+    margin: 0 auto;
+    margin-top: 25px;
+    vertical-align: -500%;
 
     z-index: 54;
     background-color: grey;
 }
 
-#Scout_Select {
+.Character_Select_Options {
     height: 500px;
     width: 200px;
     display: inline-block;
+
     position: relative;
+    margin: 0 auto;
+    border-left: 500px;
 
     z-index: 55;
     background-color: white;
+}
+
+#Scout_Select {
+    border: solid black 2px;
+    cursor: pointer;
 }
 
 #Alexandre_Select {
-    height: 500px;
-    width: 200px;
-    display: inline-block;
-    position: relative;
-
-    z-index: 55;
-    background-color: white
+    border: solid black 2px;
+    cursor: pointer;
 }
-
 
 #Evee_Select {
-    height: 500px;
-    width: 200px;
-    display: inline-block;
-    position: relative;
-
-
-    z-index: 55;
-    background-color: white;
+    border: solid black 2px;
+    cursor: pointer;
 }
+
 
 
 
