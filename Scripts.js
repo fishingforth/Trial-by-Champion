@@ -32,7 +32,7 @@ if (animGo = 1) {
 }*/
 
 // Using multiple unit types within one animation.
-
+setTimeout(function(){
 $( "#Button" ).click(function() {
     $( "#top_animation_cover_pt1" ).animate({
         width: "100%",
@@ -146,7 +146,7 @@ $ ( "#Button").click(function() {
         fontSize: "3em",
     }, 1500 );
 })
-
+}, 0);
 
 
 // #top_animation_cover end //
@@ -331,11 +331,68 @@ setTimeout(function(){ /* Delay of the Chat_Log Variable */
     }, 7000);
 
     setTimeout(function coverFunctAnim() {
-        $("#Character_Select_Screen").append("<div id='Scout_Select'></div><div id='Alexandre_Select'></div><div id='Evee_Select'></div>");
+        $(".Character_Select_Screen").append("" +
+            "<div class='Character_Select_Options' id='Scout_Select' onclick='Scout()'></div>" +
+            "<div class='Character_Select_Options' id='Alexandre_Select'></div>" +
+            "<div class='Character_Select_Options' id='Evee_Select' ></div>");
     }, 7100);
+
+
 
 }, 3000); /* Delay of the Chat_Log Variable */
 };
+
+$(document).delegate('#Scout_Select', 'click', function()
+{
+    $("#div_Chat_Log_Text").empty();
+    $("#div_Chat_Log_Text").append("<div id='div_Chat_Log_Text_Title'>Chapter 1: </div>");
+
+    setTimeout(function () {
+        setTimeout(function () {
+            $("#div_Chat_Log_Text_Title").append("S");
+        }, 300);
+
+        setTimeout(function () {
+            $("#div_Chat_Log_Text_Title").append("c");
+        }, 600);
+
+        setTimeout(function () {
+            $("#div_Chat_Log_Text_Title").append("o");
+        }, 900);
+
+        setTimeout(function () {
+            $("#div_Chat_Log_Text_Title").append("u");
+        }, 1200);
+
+        setTimeout(function () {
+            $("#div_Chat_Log_Text_Title").append("t");
+        }, 1500);
+
+        setTimeout(function () {
+            $("#div_Chat_Log_Text").append("<hr>");
+        }, 1700);
+
+        setTimeout(function () {
+            $("#div_Chat_Log_Text").append("Under holy judgement, a trial is being held, a trial that only the most desperate of prisoner wish for: a Trial by Champion.");
+        }, 2000);
+
+        setTimeout(function () {
+            $("#div_Chat_Log_Text").append("<div id='continue_Dots'>...</div>");
+        }, 2000);
+
+        /*SEPERATE????QUESTIONMARK?*/
+
+        setTimeout(function () {
+            $("#div_Chat_Log_Text").append("<br><br>");
+        }, 3000);
+
+        setTimeout(function () {
+            $("#div_Chat_Log_Text").append("You are thrown down a trapdoor, a pile of hay broke your fall. The only light in this place came from above.<br>You sat in silence for a couple of seconds, bracing yourself for the trial. 'Good luck', said the warden as he shut the wooden door.");
+        }, 4000);
+
+    }, 0); /* Chapter Typing */
+});
+
 
 /*$('.div').append;
 setTimeout(function() {
