@@ -32,7 +32,7 @@ if (animGo = 1) {
 }*/
 
 // Using multiple unit types within one animation.
-
+setTimeout(function(){
 $( "#Button" ).click(function() {
     $( "#top_animation_cover_pt1" ).animate({
         width: "100%",
@@ -146,7 +146,7 @@ $ ( "#Button").click(function() {
         fontSize: "3em",
     }, 1500 );
 })
-
+}, 0);
 
 
 // #top_animation_cover end //
@@ -224,118 +224,263 @@ setTimeout(function () {
 
 var typeWords = function() {
 
-    /* BRANCHING PROJECT IDEA *//* BRANCHING PROJECT IDEA *//* BRANCHING PROJECT IDEA */
-    /* BRANCHING PROJECT IDEA *//* BRANCHING PROJECT IDEA *//* BRANCHING PROJECT IDEA */
+    /* BRANCHING PROJECT IDEA */
+    /* BRANCHING PROJECT IDEA */
+    /* BRANCHING PROJECT IDEA */
+    /* BRANCHING PROJECT IDEA */
+    /* BRANCHING PROJECT IDEA */
+    /* BRANCHING PROJECT IDEA */
     setTimeout(function coverFunctAnim() {
         /* not this */
         setTimeout(function coverFunctAnim() {
             $("#div_Chat_Log_Text").append("loading inventory_Div_Title");
-        },3100);
+        }, 3100);
 
         setTimeout(function coverFunctAnim() {
             $("#div_Chat_Log_Text").append("<br>");
-        },3101);
+        }, 3101);
 
         setTimeout(function coverFunctAnim() {
             $("#div_Chat_Log_Text").append("loading inventory_Map_Title");
-        },3600);
+        }, 3600);
 
         setTimeout(function coverFunctAnim() {
             $("#div_Chat_Log_Text").empty('body');
-        },5000);
+        }, 5000);
         /* not this */
-    },0); /* Full Value */
-    /* BRANCHING PROJECT IDEA *//* BRANCHING PROJECT IDEA *//* BRANCHING PROJECT IDEA */
-    /* BRANCHING PROJECT IDEA *//* BRANCHING PROJECT IDEA *//* BRANCHING PROJECT IDEA */
+    }, 0);
+    /* Full Value */
+    /* BRANCHING PROJECT IDEA */
+    /* BRANCHING PROJECT IDEA */
+    /* BRANCHING PROJECT IDEA */
+    /* BRANCHING PROJECT IDEA */
+    /* BRANCHING PROJECT IDEA */
+    /* BRANCHING PROJECT IDEA */
 
-setTimeout(function(){ /* Delay of the Chat_Log Variable */
-    /* Chat_Log */
-    setTimeout(function coverFunctAnim() {
-        $("#div_Chat_Log_Text").append("C");
-    }, 3300);
+    setTimeout(function () { /* Delay of the Chat_Log Variable */
+        /* Chat_Log */
+        /*setTimeout(function coverFunctAnim() {
+         $("#div_Chat_Log_Text").append("C");
+         }, 3300);
 
-    setTimeout(function coverFunctAnim() {
-        $("#div_Chat_Log_Text").append("h");
-    }, 3500);
+         setTimeout(function coverFunctAnim() {
+         $("#div_Chat_Log_Text").append("h");
+         }, 3500);
 
-    setTimeout(function coverFunctAnim() {
-        $("#div_Chat_Log_Text").append("a");
-    }, 3700);
+         setTimeout(function coverFunctAnim() {
+         $("#div_Chat_Log_Text").append("a");
+         }, 3700);
 
-    setTimeout(function coverFunctAnim() {
-        $("#div_Chat_Log_Text").append("r");
-    }, 3900);
+         setTimeout(function coverFunctAnim() {
+         $("#div_Chat_Log_Text").append("r");
+         }, 3900);
 
-    setTimeout(function coverFunctAnim() {
-        $("#div_Chat_Log_Text").append("a");
-    }, 4100);
+         setTimeout(function coverFunctAnim() {
+         $("#div_Chat_Log_Text").append("a");
+         }, 4100);
 
-    setTimeout(function coverFunctAnim() {
-        $("#div_Chat_Log_Text").append("c");
-    }, 4300);
+         setTimeout(function coverFunctAnim() {
+         $("#div_Chat_Log_Text").append("c");
+         }, 4300);
 
-    setTimeout(function coverFunctAnim() {
-        $("#div_Chat_Log_Text").append("t");
-    }, 4500);
+         setTimeout(function coverFunctAnim() {
+         $("#div_Chat_Log_Text").append("t");
+         }, 4500);
 
-    setTimeout(function coverFunctAnim() {
-        $("#div_Chat_Log_Text").append("e");
-    }, 4700);
+         setTimeout(function coverFunctAnim() {
+         $("#div_Chat_Log_Text").append("e");
+         }, 4700);
 
-    setTimeout(function coverFunctAnim() {
-        $("#div_Chat_Log_Text").append("r");
-    }, 4900);
+         setTimeout(function coverFunctAnim() {
+         $("#div_Chat_Log_Text").append("r");
+         }, 4900);
 
-//
-    setTimeout(function coverFunctAnim() {
-        $("#div_Chat_Log_Text").append(" ");
-    }, 5100);
-//
+         //
+         setTimeout(function coverFunctAnim() {
+         $("#div_Chat_Log_Text").append(" ");
+         }, 5100);
+         //
 
-    setTimeout(function coverFunctAnim() {
-        $("#div_Chat_Log_Text").append("S");
-    }, 5300);
+         setTimeout(function coverFunctAnim() {
+         $("#div_Chat_Log_Text").append("S");
+         }, 5300);
 
-    setTimeout(function coverFunctAnim() {
-        $("#div_Chat_Log_Text").append("e");
-    }, 5500);
+         setTimeout(function coverFunctAnim() {
+         $("#div_Chat_Log_Text").append("e");
+         }, 5500);
 
-    setTimeout(function coverFunctAnim() {
-        $("#div_Chat_Log_Text").append("l");
-    }, 5700);
+         setTimeout(function coverFunctAnim() {
+         $("#div_Chat_Log_Text").append("l");
+         }, 5700);
 
-    setTimeout(function coverFunctAnim() {
-        $("#div_Chat_Log_Text").append("e");
-    }, 5900);
+         setTimeout(function coverFunctAnim() {
+         $("#div_Chat_Log_Text").append("e");
+         }, 5900);
 
-    setTimeout(function coverFunctAnim() {
-        $("#div_Chat_Log_Text").append("c");
-    }, 6100);
+         setTimeout(function coverFunctAnim() {
+         $("#div_Chat_Log_Text").append("c");
+         }, 6100);
 
-    setTimeout(function coverFunctAnim() {
-        $("#div_Chat_Log_Text").append("t");
-    }, 6300);
+         setTimeout(function coverFunctAnim() {
+         $("#div_Chat_Log_Text").append("t");
+         }, 6300);
 
-    setTimeout(function coverFunctAnim() {
-        $("#div_Chat_Log_Text").append(":");
-    }, 6500);
+         setTimeout(function coverFunctAnim() {
+         $("#div_Chat_Log_Text").append(":");
+         }, 6500);
+         */
 
-    setTimeout(function coverFunctAnim() {
-        $("#div_Chat_Log_Text").append("<br>");
-    }, 6500);
+        setTimeout(function coverFunctAnim() {
+            $("#div_Chat_Log_Text").append("<div id='div_Chat_Log_Text_Title'></div>");
+        }, 3500);
 
-    setTimeout(function coverFunctAnim() {
-        $("#div_Chat_Log_Text").append("<div class='Character_Select_Screen'>" +
-            "" +
-            "</div>");
-    }, 7000);
+        setTimeout(function coverFunctAnim() {
+            $("<p>Character Select:</p>").hide().appendTo("#div_Chat_Log_Text_Title").fadeIn(1000);
+        }, 3501);
 
-    setTimeout(function coverFunctAnim() {
-        $("#Character_Select_Screen").append("<div id='Scout_Select'></div><div id='Alexandre_Select'></div><div id='Evee_Select'></div>");
-    }, 7100);
+        setTimeout(function coverFunctAnim() {
+            setTimeout(function coverFunctAnim() {
+                $("#div_Chat_Log_Text").append("<br>");
+            }, 0);
 
-}, 3000); /* Delay of the Chat_Log Variable */
+            setTimeout(function coverFunctAnim() {
+                $("#div_Chat_Log_Text").append("<div class='Character_Select_Screen'>" +
+                    "" +
+                    "</div>");
+            }, 500);
+
+            setTimeout(function coverFunctAnim() {
+                $(".Character_Select_Screen").append("" +
+                    "<div class='Character_Select_Options' id='Scout_Select' onclick='Scout()'></div>" +
+                    "<div class='Character_Select_Options' id='Alexandre_Select'></div>" +
+                    "<div class='Character_Select_Options' id='Evee_Select' ></div>");
+            }, 1000);
+        }, 5500);
+
+    }, 3000);
+    /* Delay of the Chat_Log Variable */
 };
+
+$(document).ready(function(){ /* I DON'T KNOW WHY IT WORK LAST TIME BUT ok */
+    $(document).delegate('#Scout_Select', 'click', function() /* AFTER SCOUT WAS SELECTED */ {
+        $("#div_Chat_Log_Text").empty();
+
+        setTimeout(function () {
+            $("#div_Chat_Log_Text").append("<div id='div_Chat_Log_Text_Title'></div>");
+        }, 0);
+
+        setTimeout(function () {
+            $("<span>Chapter 1: </span>").hide().appendTo("#div_Chat_Log_Text_Title").fadeIn(1000); /*This append has hide??? */
+        }, 1);
+
+        setTimeout(function () { /*Just Use This??*/
+
+            $("<span>Scout</span>").hide().appendTo("#div_Chat_Log_Text_Title").fadeIn(1000);
+            /*
+            setTimeout(function () {
+                $("#div_Chat_Log_Text_Title").append("S");
+            }, 300);
+
+            setTimeout(function () {
+                $("#div_Chat_Log_Text_Title").append("c");
+            }, 600);
+
+            setTimeout(function () {
+                $("#div_Chat_Log_Text_Title").append("o");
+            }, 900);
+
+            setTimeout(function () {
+                $("#div_Chat_Log_Text_Title").append("u");
+            }, 1200);
+
+            setTimeout(function () {
+                $("#div_Chat_Log_Text_Title").append("t");
+            }, 1500);
+            */
+
+            setTimeout(function () {
+                $("<hr>").hide().appendTo("#div_Chat_Log_Text").fadeIn(1000);
+            }, 1700);
+
+            setTimeout(function () {
+                $("<p>Under holy judgement, a trial is being held, a trial that only the most desperate of prisoner would wish for: a 'Trial by Champion'.</p>").hide().appendTo("#div_Chat_Log_Text").fadeIn(1000);
+            }, 2000);
+
+            setTimeout(function () {
+                $("<p id='continue_Dots'>...</p>").hide().appendTo("#div_Chat_Log_Text").fadeIn(1000);
+            }, 3000);
+
+            /*SEPERATE????QUESTIONMARK?*/
+
+            setTimeout(function () {
+                $("#div_Chat_Log_Text").append("<br>");
+            }, 3500);
+
+            setTimeout(function () {
+                $("<p>You are thrown down a trapdoor, a pile of hay broke your fall. The only light here is coming from above.<br>You sat in silence for a couple of seconds, bracing yourself mentally for the trial. 'Good luck,' said the warden before he shut the wooden door.</p>").hide().appendTo("#div_Chat_Log_Text").fadeIn(1000);
+            }, 4000);
+
+            setTimeout(function () {
+                $("<p id='continue_Dots'>...</p>").hide().appendTo("#div_Chat_Log_Text").fadeIn(1000);
+            }, 5000);
+
+            setTimeout(function () {
+                $("<p>The room has become pitch black. What do you do?</p>").hide().appendTo("#div_Chat_Log_Text").fadeIn(1000);
+            }, 6000);
+
+            setTimeout(function () {
+                $("<div class='radio_Choices' id='scout_Room_Search_1'<br>Search the room.</div>" +
+                    "<div class='radio_Choices' id='scout_Find_Door_1'<br>Find an exit</div>").hide().appendTo("#div_Chat_Log_Text").fadeIn(1000);
+            }, 8000);
+
+        }, 0); /* Chapter Typing */
+    });
+});
+
+$(document).ready(function(){
+    $(document).delegate('#scout_Room_Search_1', 'click', function(){
+
+        $("#div_Chat_Log_Text").fadeOut(500, function() {
+            $("#div_Chat_Log_Text").empty().show();
+        });
+
+        setTimeout(function () {
+            $("<p>You move your hands back and forth, feeling nothing but cobblestone and hay.</p>").hide().appendTo("#div_Chat_Log_Text").fadeIn(1000);
+        }, 1000);
+
+        setTimeout(function () {
+            $("<div class='radio_Choices' id='scout_Room_Search_2'<br>Search in the haystack.</div>" +
+                "<div class='radio_Choices' id='scout_Find_Door_1'<br>Find an exit</div>").hide().appendTo("#div_Chat_Log_Text").fadeIn(1000);
+        }, 3000);
+
+    });
+});
+
+$(document).ready(function(){
+    $(document).delegate('#scout_Find_Door_1', 'click', function(){
+
+        $("#div_Chat_Log_Text").fadeOut(500, function() {
+            $("#div_Chat_Log_Text").empty().show();
+        });
+
+        setTimeout(function () {
+            $("<p>You stumble around in the darkness following the walls, until you found the exit to the room.</p>").hide().appendTo("#div_Chat_Log_Text").fadeIn(1000);
+        }, 1000);
+
+        setTimeout(function () {
+            $("<p>...</p>").hide().appendTo("#div_Chat_Log_Text").fadeIn(1000);
+        }, 2000);
+
+    });
+});
+
+
+
+
+
+
+
+
 
 /*$('.div').append;
 setTimeout(function() {
