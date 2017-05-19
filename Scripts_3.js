@@ -24,7 +24,7 @@ $(document).ready(function(){
         }, 1700);
 
         setTimeout(function () {
-            $("<p> INSERT TEXT HERE TEST</p>").hide().appendTo("#div_Chat_Log_Text").fadeIn(1000);
+            $("<p>INSERT TEXT HERE TEST</p>").hide().appendTo("#div_Chat_Log_Text").fadeIn(1000);
         }, 2000);
 
     });

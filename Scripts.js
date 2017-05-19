@@ -421,7 +421,7 @@ $(document).ready(function(){ /* I DON'T KNOW WHY IT WORK LAST TIME BUT ok */
             }, 3500);
 
             setTimeout(function () {
-                $("<p>You are thrown down a trapdoor, a pile of hay broke your fall. The only light here is coming from above.<br>You sat in silence for a couple of seconds, bracing yourself mentally for the trial. 'Good luck,' said the warden before he shut the wooden door.</p>").hide().appendTo("#div_Chat_Log_Text").fadeIn(1000);
+                $('<p>You are thrown down a trapdoor, a pile of hay broke your fall. The only light here is coming from above.<br>You sat in silence for a couple of seconds, bracing yourself mentally for the trial. "Good luck," said the warden before he shut the wooden door.</p>').hide().appendTo("#div_Chat_Log_Text").fadeIn(1000);
             }, 4000);
 
             setTimeout(function () {
@@ -511,7 +511,7 @@ $(document).ready(function(){
         }, 4000);
 
         setTimeout(function () {
-            $("<p>You're certain you heard something from further down this hall. You wonder once more whether that rumor is true.</p>").hide().appendTo("#div_Chat_Log_Text").fadeIn(1000);
+            $("<p>You're think you heard something from further down this hall. You wonder once more whether that rumor is true.</p>").hide().appendTo("#div_Chat_Log_Text").fadeIn(1000);
         }, 6000);
 
         setTimeout(function () {
