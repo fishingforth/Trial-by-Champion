@@ -27,6 +27,7 @@ body { /* TO DISABLE THE SCROLLBAR */
     height: 48px;
     background-color: aliceblue;
     position: relative;
+    cursor: pointer;
 }
 
 #Button_Box {
@@ -85,7 +86,7 @@ body { /* TO DISABLE THE SCROLLBAR */
     position: absolute;
     margin-left: -8px;
     top: 5%;
-}
+} /*This top_animation_cover_ has a much bigger height than the rest for no reason now*/
 
 #top_animation_cover_pt3 {
     background-color: #000000;
@@ -319,6 +320,26 @@ body { /* TO DISABLE THE SCROLLBAR */
     z-index: 51;
 }
 
+#div_Chat_Log_Text_Title {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+
+    margin: 1%;
+
+    z-index: 51;
+}
+
+#continue_Dots {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+
+    margin: 1%;
+
+    z-index: 51;
+}
+
 #div_Chat_Entry {
     background-color: black;
     height: 100px;
@@ -349,6 +370,15 @@ body { /* TO DISABLE THE SCROLLBAR */
     z-index: 50;
 }
 
+#div_Inventory_Text {
+    color: white;
+    font-size: 20px;
+
+    margin: 1%;
+
+    z-index: 51;
+}
+
 #div_Inventory_Value {
     background-color: black;
     height: 500px;
@@ -364,6 +394,16 @@ body { /* TO DISABLE THE SCROLLBAR */
     z-index: 51; /* Not sure if there is a point in making the z-index +1 higher, but I did anyways */
 }
 
+#div_Inventory_Value_Text {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+
+    margin: 1%;
+
+    z-index: 51;
+}
+
 /*#div_Chat_Log*/
 /*height: 600px;*/
 /*width: 650px;*/
@@ -371,48 +411,81 @@ body { /* TO DISABLE THE SCROLLBAR */
 .Character_Select_Screen {
     height: 500px;
     width: 100%;
+    display: inline-block;
+    text-align:center;
 
     position: relative;
-    margin-top: 5%;
+    margin: 0 auto;
+    margin-top: -25px;
+    vertical-align: -500%;
 
     z-index: 54;
     background-color: grey;
 }
 
-#Scout_Select {
+.Character_Select_Options {
     height: 500px;
     width: 200px;
     display: inline-block;
+
     position: relative;
+    margin: 0 auto;
+    border-left: 500px;
 
     z-index: 55;
     background-color: white;
+}
+
+#Scout_Select {
+    border: solid black 2px;
+    cursor: pointer;
 }
 
 #Alexandre_Select {
-    height: 500px;
-    width: 200px;
-    display: inline-block;
-    position: relative;
-
-    z-index: 55;
-    background-color: white
+    border: solid black 2px;
+    cursor: pointer;
 }
-
 
 #Evee_Select {
-    height: 500px;
-    width: 200px;
-    display: inline-block;
-    position: relative;
-
-
-    z-index: 55;
-    background-color: white;
+    border: solid black 2px;
+    cursor: pointer;
 }
 
+.radio_Choices {
+    width: 25%;
+    height: 10%;
+    display: block;
+    text-align: center;
+    color: black;
 
+    border: solid black 2px;
+    cursor: pointer;
 
+    position: relative;
+    margin: 0 auto;
+    border-left: 500px;
+
+    z-index: 55;
+    background-color: aliceblue;
+}
+
+.radio_Choices_G {
+    width: 25%;
+    height: 10%;
+    display: block;
+    text-align: center;
+    color: black;
+
+    border: solid black 2px;
+    cursor: pointer;
+
+    position: relative;
+    margin: 0 auto;
+    border-left: 500px;
+
+    z-index: 55;
+    background-color: gray;
+}
 
 
 
